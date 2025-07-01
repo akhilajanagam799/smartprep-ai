@@ -17,4 +17,4 @@ An AI-powered smart interview preparation simulator built to replicate real-worl
 **AI/NLP:** Google Gemini API, Web Speech API  
 **Authentication:** JWT, bcrypt  
 
-## 📁 Folder Structure (To be added later)
+## 📁 Folder Structure
