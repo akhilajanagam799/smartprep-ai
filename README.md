@@ -62,8 +62,8 @@ smartprep-ai/
 
 ### 🔹 Clone the Repository
 
-```bash
-git clone https://github.com/akhilajanagam799/smartprep-ai.git
-cd smartprep-ai
+
+`git clone https://github.com/akhilajanagam799/smartprep-ai.git`
+`cd smartprep-ai`
 
 
