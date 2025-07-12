@@ -67,4 +67,10 @@ smartprep-ai/
 
 `cd smartprep-ai`
 
+## Frontend Setup
+
+cd frontend
+npm install
+npm run dev
+
 
