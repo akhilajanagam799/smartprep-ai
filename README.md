@@ -1,99 +1,58 @@
-# 🚀 PrepBuddy: Your AI-Driven Interview Coach
+# 🚀 SmartPrep AI – Smart Interview Preparation Simulator
 
-PrepBuddy is a modern platform designed to supercharge your technical and behavioral interview preparation with the power of AI. It delivers customized practice sessions, insightful explanations, and structured learning plans to help you excel in interviews with confidence.
+**SmartPrep AI** is a full-stack AI-powered platform designed to simulate technical, behavioral, and communication interviews across various domains. The system uses modern AI tools like Google Gemini API, voice recognition, and NLP to create a realistic and interactive mock interview experience with performance analytics.
 
----
-
-## ✨ Features at a Glance
-
-### 🎯 AI-Enhanced Practice
-- Generate tailored, role-specific interview questions.
-- Receive comprehensive explanations to understand each question deeply.
-- Simulate authentic interview experiences.
-
-### 📈 Personalized Learning Paths
-- Create preparation sessions customized to your goals.
-- Focus your study on specific skills or concepts.
-- Monitor your progress over time to see your improvement.
-
-### 📚 Intelligent Question Tools
-- Pin questions you want to revisit later.
-- Access AI-generated explanations instantly.
-- Sort questions by topic or difficulty for targeted learning.
-
-### 🖥️ Smooth User Experience
-- Sleek, easy-to-use dashboard.
-- Fully responsive design for mobile and desktop.
-- Effortless navigation and session management.
+> 📅 Developed in June–July 2024 under Acmegrade, IIT Bombay  
+> 👤 Author: [Akhila Janagam](https://github.com/akhilajanagam799)
 
 ---
 
-## 📸 Platform Previews
-![Home Screen](./images/homepage.png)
-![Dashboard](./images/dashboard.png)
-![prepration](./images/prep.png)
----
+## 🎯 Key Features
 
-## 🚀 Quick Start Guide
+### 🤖 AI-Based Question Generation
+- Generate subject-wise questions dynamically (DSA, DBMS, OS, OOPs).
+- Powered by Google Gemini API for intelligent, real-time question generation.
 
-1. **Register or Log In**
-   - Create a new account or access your existing one.
-   - Enter your personalized interview dashboard.
+### 🧠 NLP-Based Answer Evaluation
+- User responses are analyzed using NLP to provide improvement tips.
+- Includes follow-up questions and guidance to improve technical clarity and communication.
 
-2. **Set Up a Session**
-   - Choose your target job role.
-   - Define your experience level.
-   - Pick specific topics you want to practice.
+### 🎤 Voice Interaction (Web Speech API)
+- Users can speak their answers instead of typing.
+- Great for practicing communication-based interviews with ease and realism.
 
-3. **Begin Practicing**
-   - Get AI-generated, job-relevant questions.
-   - Review detailed explanations.
-   - Keep track of your progress in real time.
+### 📊 Performance Analytics Dashboard
+- Visual analytics using Recharts (bar/line graphs).
+- Tracks scores, progress, and historical interview performance.
 
----
-
-## 🛠️ Technology Stack
-
-- **Frontend:** React.js, TailwindCSS  
-- **Backend:** Node.js, Express.js  
-- **Database:** MongoDB  
-- **AI Integration:** Gemini API  
-- **Authentication:** JSON Web Tokens (JWT)
+### 🔐 User Authentication & Session History
+- Secure authentication with JWT.
+- Tracks user-specific interview sessions and stores history for future analysis.
 
 ---
 
-## 🛠️ Installation Guide                        
-1️⃣ **Frontend Setup** 
-```bash 
-cd frontend 
-npm install 
-npm run dev 
-``` 
-2️⃣ **Backend Setup** 
-```bash 
-cd backend 
-npm install 
-npm run dev 
-``` 
-## 🗝️ Environment Variables 
-In your **frontend .env** file: 
-```env 
-VITE_API_URL=your_backend_url 
-``` 
-In your **backend .env** file: 
-```env 
-MONGO_URI=your_mongodb_connection_string 
-JWT_SECRET= 
-GEMINI_API_KEY=your_gemini_api_key 
-ALLOWED_ORIGINS=your_frontend_url 
-PORT=8000 
-``` 
-## 🔗 Live Frontend Link 
-[SmartPrepAI Frontend](https://smartprepai-1.onrender.com) 
+## 🧰 Tech Stack
 
+| Layer           | Technologies Used                                        |
+|------------------|----------------------------------------------------------|
+| Frontend         | React.js, Tailwind CSS, Vite, Web Speech API             |
+| Backend          | Node.js, Express.js                                      |
+| Database         | MongoDB, Mongoose ORM                                    |
+| AI Integration   | Google Gemini API                                        |
+| Auth & Security  | JSON Web Tokens (JWT), CORS, bcrypt                      |
+| Data Visualization | Recharts                                                |
+| Deployment       | Render (backend), Netlify (frontend)                     |
 
+---
 
-## 👨‍💻 Author
+## 📦 Project Structure
 
-*divyansh jain*
+```bash
+smartprep-ai/
+├── frontend/            # React frontend with Tailwind CSS
+├── backend/             # Node.js + Express backend
+├── images/              # Screenshots and dashboard visuals
+├── README.md            # Project documentation
+└── ...
+
 
