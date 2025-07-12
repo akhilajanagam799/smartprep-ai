@@ -58,7 +58,7 @@ smartprep-ai/
 
 ## ⚙️ Getting Started
 
-### 🔹 Clone the Repository
+
 
 ### 🔹 Clone the Repository
 
