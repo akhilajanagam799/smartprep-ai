@@ -51,8 +51,17 @@
 smartprep-ai/
 ├── frontend/            # React frontend with Tailwind CSS
 ├── backend/             # Node.js + Express backend
-├── images/              # Screenshots and dashboard visuals
 ├── README.md            # Project documentation
 └── ...
 
+
+---
+
+## ⚙️ Getting Started
+
+### 🔹 Clone the Repository
+
+```bash
+git clone https://github.com/akhilajanagam799/smartprep-ai.git
+cd smartprep-ai
 
