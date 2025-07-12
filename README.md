@@ -50,8 +50,6 @@ smartprep-ai/
 
 ├── backend/ # Node.js + Express backend
 
-├── images/ # UI screenshots (optional)
-
 ├── README.md # Project documentation
 
 └── ...
