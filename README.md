@@ -63,7 +63,7 @@ yaml
 
 
 git clone https://github.com/akhilajanagam799/smartprep-ai.git
-<pre> ```bash cd smartprep-ai ``` </pre>
+<pre>  cd smartprep-ai </pre>
 
 
 
