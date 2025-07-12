@@ -47,13 +47,13 @@
 
 ## 📦 Project Structure
 
-```bash
 smartprep-ai/
-├── frontend/            # React frontend with Tailwind CSS
-├── backend/             # Node.js + Express backend
-├── README.md            # Project documentation
+├── frontend/ # React frontend with Tailwind CSS
+├── backend/ # Node.js + Express backend
+├── README.md # Project documentation
 └── ...
 
+yaml
 
 ---
 
@@ -65,9 +65,11 @@ smartprep-ai/
 git clone https://github.com/akhilajanagam799/smartprep-ai.git
 cd smartprep-ai
 
+
 ### 🔹 Frontend Setup
 
 ```bash
 cd frontend
 npm install
 npm run dev
+
