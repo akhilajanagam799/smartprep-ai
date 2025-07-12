@@ -63,7 +63,8 @@ yaml
 
 
 git clone https://github.com/akhilajanagam799/smartprep-ai.git
-cd smartprep-ai
+<pre> ```bash cd smartprep-ai ``` </pre>
+
 
 
 ### 🔹 Frontend Setup
