@@ -3,7 +3,7 @@
 **SmartPrep AI** is a full-stack AI-powered platform designed to simulate technical, behavioral, and communication interviews across various domains. The system uses modern AI tools like Google Gemini API, voice recognition, and NLP to create a realistic and interactive mock interview experience with performance analytics.
 
 > 📅 Developed in June–July 2024 under Acmegrade, IIT Bombay  
-> 👤 Author: [Akhila Janagam](https://github.com/akhilajanagam799)
+> 👤 Author: [Akhila Janagam]  (https://github.com/akhilajanagam799)
 
 ---
 
@@ -41,7 +41,7 @@
 | AI Integration   | Google Gemini API                                        |
 | Auth & Security  | JSON Web Tokens (JWT), CORS, bcrypt                      |
 | Data Visualization | Recharts                                                |
-| Deployment       | Render (backend), Netlify (frontend)                     |
+
 
 ---
 
