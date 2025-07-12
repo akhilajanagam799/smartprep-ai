@@ -62,10 +62,10 @@ smartprep-ai/
 
 ### 🔹 Clone the Repository
 
-
-`git clone https://github.com/akhilajanagam799/smartprep-ai.git`
-
-`cd smartprep-ai`
+```bash
+git clone https://github.com/akhilajanagam799/smartprep-ai.git
+cd smartprep-ai
+```
 
 ## Frontend Setup
 
