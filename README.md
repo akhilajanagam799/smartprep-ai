@@ -116,9 +116,12 @@ ALLOWED_ORIGINS=http://localhost:5173
 ## 👩‍💻 Author
 
 Akhila Janagam
+
 🎓 B.Tech in Mathematics and Computing
+
 💼 Passionate about building impactful AI tools
+
 🔗 GitHub: @akhilajanagam799
 
-
+***Thank you for visiting our project! Feel free to contribute or reach out via GitHub if you have any questions or suggestions.***
 
