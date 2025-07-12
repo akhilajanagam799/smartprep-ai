@@ -46,9 +46,13 @@
 ## 📦 Project Structure
 smartprep-ai/
 ├── frontend/ # React frontend with Tailwind CSS
+
 ├── backend/ # Node.js + Express backend
+
 ├── images/ # UI screenshots (optional)
+
 ├── README.md # Project documentation
+
 └── ...
 
 ## ⚙️ Getting Started
