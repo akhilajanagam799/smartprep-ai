@@ -1,76 +1,49 @@
 # 🚀 SmartPrep AI – Smart Interview Preparation Simulator
 
-**SmartPrep AI** is a full-stack AI-powered platform designed to simulate technical, behavioral, and communication interviews across various domains. The system uses modern AI tools like Google Gemini API, voice recognition, and NLP to create a realistic and interactive mock interview experience with performance analytics.
-
-> 📅 Developed in June–July 2024 under Acmegrade, IIT Bombay  
-> 👤 Author: [Akhila Janagam]  (https://github.com/akhilajanagam799)
+**SmartPrep AI** is an AI-powered mock interview platform designed to simulate real-world technical, behavioral, and communication interviews across diverse domains. It helps students and professionals enhance their preparation through intelligent question generation, real-time feedback, voice-based interaction, and performance analytics.
 
 ---
 
-## 🎯 Key Features
+## ✨ Key Features
 
-### 🤖 AI-Based Question Generation
-- Generate subject-wise questions dynamically (DSA, DBMS, OS, OOPs).
-- Powered by Google Gemini API for intelligent, real-time question generation.
+- 📚 **Subject-wise AI Interview Questions**  
+  Automatically generates domain-specific questions for DSA, DBMS, OS, and OOPs using Google Gemini API.
 
-### 🧠 NLP-Based Answer Evaluation
-- User responses are analyzed using NLP to provide improvement tips.
-- Includes follow-up questions and guidance to improve technical clarity and communication.
+- 🧠 **Real-Time Answer Evaluation**  
+  Uses NLP to evaluate your responses, provide instant feedback, scores, and actionable improvement tips.
 
-### 🎤 Voice Interaction (Web Speech API)
-- Users can speak their answers instead of typing.
-- Great for practicing communication-based interviews with ease and realism.
+- 🗣️ **Voice Interaction Support**  
+  Integrated with the Web Speech API to simulate a real conversation-style interview experience.
 
-### 📊 Performance Analytics Dashboard
-- Visual analytics using Recharts (bar/line graphs).
-- Tracks scores, progress, and historical interview performance.
+- 📊 **Interactive Performance Analytics**  
+  Track your progress over sessions using rich data visualizations powered by Recharts.
 
-### 🔐 User Authentication & Session History
-- Secure authentication with JWT.
-- Tracks user-specific interview sessions and stores history for future analysis.
+- 👤 **Secure User Authentication**  
+  Auth system with JWT and MongoDB to handle user login, session storage, and data protection.
+
+- 📁 **Session History & Review**  
+  Stores all previous interview sessions for review, feedback, and performance analysis.
+
+- 🧩 **Responsive UI & Smooth UX**  
+  Sleek, modern design using React.js and Tailwind CSS for a seamless and intuitive experience.
 
 ---
 
-## 🧰 Tech Stack
+## 🛠️ Tech Stack
 
-| Layer           | Technologies Used                                        |
-|------------------|----------------------------------------------------------|
-| Frontend         | React.js, Tailwind CSS, Vite, Web Speech API             |
-| Backend          | Node.js, Express.js                                      |
-| Database         | MongoDB, Mongoose ORM                                    |
-| AI Integration   | Google Gemini API                                        |
-| Auth & Security  | JSON Web Tokens (JWT), CORS, bcrypt                      |
-| Data Visualization | Recharts                                                |
-
+| Layer       | Technologies                             |
+|-------------|-------------------------------------------|
+| Frontend    | React.js, Tailwind CSS, Vite              |
+| Backend     | Node.js, Express.js                       |
+| Database    | MongoDB                                   |
+| AI Engine   | Google Gemini API                         |
+| Authentication | JSON Web Token (JWT)                  |
+| Voice API   | Web Speech API                            |
+| Charts      | Recharts                                  |
 
 ---
 
 ## 📦 Project Structure
 
-smartprep-ai/
-├── frontend/ # React frontend with Tailwind CSS
-├── backend/ # Node.js + Express backend
-├── README.md # Project documentation
-└── ...
 
-yaml
-
----
-
-## ⚙️ Getting Started
-
-### 🔹 Clone the Repository
-
-
-git clone https://github.com/akhilajanagam799/smartprep-ai.git
-<pre>  cd smartprep-ai </pre>
-
-
-
-### 🔹 Frontend Setup
-
-```bash
-cd frontend
-npm install
-npm run dev
 
