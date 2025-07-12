@@ -123,5 +123,5 @@ Akhila Janagam
 
 🔗 GitHub: @akhilajanagam799
 
-***Thank you for visiting our project! Feel free to contribute or reach out via GitHub if you have any questions or suggestions.***
+***Thank you for visiting  my project! Feel free to contribute or reach out via GitHub if you have any questions or suggestions.***
 
