@@ -105,12 +105,6 @@ ALLOWED_ORIGINS=http://localhost:5173
 | `ALLOWED_ORIGINS` | Frontend domain (CORS policy)           |
 
 
- ##  🌐 Live Deployment 
-
- | Service  | URL                       |
-| -------- | ------------------------- |
-| Frontend | [Netlify – coming soon]() |
-| Backend  | [Render – coming soon]()  |
 
 
 ## 👩‍💻 Author
