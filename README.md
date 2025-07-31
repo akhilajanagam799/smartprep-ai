@@ -118,6 +118,11 @@ ALLOWED_ORIGINS=http://localhost:5173
 | `ALLOWED_ORIGINS` | Frontend domain (CORS policy)           |
 
 
+File	Variables
+.env (backend)	 MONGO_URI, JWT_SECRET, GEMINI_API_KEY, ALLOWED_ORIGINS, PORT
+.env (frontend)	  VITE_API_URL
+
+
 
 
 ## 👩‍💻 Author
