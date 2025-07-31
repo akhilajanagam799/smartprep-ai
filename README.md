@@ -1,60 +1,66 @@
-# 🚀 SmartPrep AI – Smart Interview Preparation Simulator
 
-**SmartPrep AI** is an AI-powered mock interview platform designed to simulate real-world technical, behavioral, and communication interviews across diverse domains. It helps students and professionals enhance their preparation through intelligent question generation, real-time feedback, voice-based interaction, and performance analytics.
+# 🚀 SmartPrepAI– AI-Powered Interview Preparation Platform
+
+PrepBuddy is a full-stack AI-driven platform that helps users prepare for technical and behavioral interviews with role-specific questions, intelligent explanations, and personalized session tracking. Powered by Google's Gemini API and a modern web stack, it simulates an interactive and efficient interview preparation experience.
 
 ---
 
-## ✨ Key Features
+## ✨ Features
 
-- 📚 **Subject-wise AI Interview Questions**  
-  Automatically generates domain-specific questions for DSA, DBMS, OS, and OOPs using Google Gemini API.
+- 🎯 **AI-Enhanced Practice**  
+  Generate smart, role-specific technical questions using Gemini API  
+  Get instant AI-generated explanations and feedback
 
-- 🧠 **Real-Time Answer Evaluation**  
-  Uses NLP to evaluate your responses, provide instant feedback, scores, and actionable improvement tips.
+- 📈 **Personalized Learning**  
+  Customize sessions by role, topic, and experience level  
+  Simulate real interview experiences for DSA, DBMS, OS, OOPs, etc.
 
-- 🗣️ **Voice Interaction Support**  
-  Integrated with the Web Speech API to simulate a real conversation-style interview experience.
+- 📚 **Question Management**  
+  View, pin, and revisit generated questions  
+  Supports difficulty-level and topic-based filtering (extendable)
 
-- 📊 **Interactive Performance Analytics**  
-  Track your progress over sessions using rich data visualizations powered by Recharts.
-
-- 👤 **Secure User Authentication**  
-  Auth system with JWT and MongoDB to handle user login, session storage, and data protection.
-
-- 📁 **Session History & Review**  
-  Stores all previous interview sessions for review, feedback, and performance analysis.
-
-- 🧩 **Responsive UI & Smooth UX**  
-  Sleek, modern design using React.js and Tailwind CSS for a seamless and intuitive experience.
+- 🖥️ **Modern UI & UX**  
+  Responsive frontend built with React.js and TailwindCSS  
+  Clean dashboard interface and real-time updates
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Layer       | Technologies                             |
-|-------------|-------------------------------------------|
-| Frontend    | React.js, Tailwind CSS, Vite              |
-| Backend     | Node.js, Express.js                       |
-| Database    | MongoDB                                   |
-| AI Engine   | Google Gemini API                         |
-| Authentication | JSON Web Token (JWT)                  |
-| Voice API   | Web Speech API                            |
-| Charts      | Recharts                                  |
+| Layer         | Technologies                              |
+|--------------|-------------------------------------------|
+| **Frontend**  | React.js, TailwindCSS, Vite, Axios        |
+| **Backend**   | Node.js, Express.js                       |
+| **Database**  | MongoDB (Atlas)                           |
+| **AI Model**  | Gemini API (Google)                       |
+| **Auth**      | JWT (JSON Web Tokens)                     |
 
 ---
 
-## 📦 Project Structure
-smartprep-ai/
+## 📦 Folder Structure
 
-├── frontend/ # React frontend with Tailwind CSS
+prepbuddy/
+├── frontend/ # React + TailwindCSS
 
-├── backend/ # Node.js + Express backend
+│ ├── src/
 
-├── README.md # Project documentation
+│ │ ├── components/
 
-└── ...
+│ │ └── pages/
 
-## ⚙️ Getting Started
+│ └── .env # VITE_API_URL
+├── backend/ # Node + Express
+│ ├── routes/
+│ ├── controllers/
+│ ├── models/
+│ └── .env # API keys and Mongo URI
+└── README.md
+---
+
+
+---
+
+
 
 
 
