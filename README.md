@@ -127,7 +127,14 @@ API: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generate
 Requires: GEMINI_API_KEY from Google AI Studio
 
 
+ ## Future Enhancements
+Add authentication routes and user dashboards
 
+Implement session history tracking
+
+Voice-based interaction using Web Speech API
+
+Question pinning and progress charts (Recharts)
 
 ## 👩‍💻 Author
 
