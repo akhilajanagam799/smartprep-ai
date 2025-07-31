@@ -49,12 +49,19 @@ prepbuddy/
 │ │ └── pages/
 
 │ └── .env # VITE_API_URL
+
 ├── backend/ # Node + Express
+
 │ ├── routes/
+
 │ ├── controllers/
+
 │ ├── models/
-│ └── .env # API keys and Mongo URI
+
+│ └── .env # API keys and Mongo URI'
+
 └── README.md
+
 ---
 
 
