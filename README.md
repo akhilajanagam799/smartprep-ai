@@ -140,7 +140,6 @@ Question pinning and progress charts (Recharts)
 
 Akhila Janagam
 
-🎓 B.Tech in Mathematics and Computing
 
 💼 Passionate about building impactful AI tools
 
